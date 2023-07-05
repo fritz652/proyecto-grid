@@ -32,9 +32,8 @@ main {
   border-radius: 20px;
   color: #333;
   background-color: #fb8c00;
-  width: 150px;
-  height: 40px;
-  font-size: 18px;
+  font-weight: bolder;
+  padding: 12px 24px;
 }
 .hero .hero-img {
   width: 100%;
