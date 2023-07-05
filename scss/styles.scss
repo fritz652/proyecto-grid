@@ -15,13 +15,31 @@ main {
    /*  max-height: 400px; */
     .info {
         align-self: center;
-        h1 {
-            font-size: 60px;
+        .info-title {
+            color: #333;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom:  24px;
+        }
+        .info-subtitle {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom:  24px;
+        }
+        button {
+            border:  none;
+            border-radius: 20px;
+            color: #333;
+            background-color: #fb8c00;
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+
         }
     }
     .hero-img{
         /* width: 100%; */
         height: 100%;
-        /* object-fit: contain; */
+        display: grid;
     }
 }

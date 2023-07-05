@@ -16,11 +16,28 @@ main {
 .hero .info {
   align-self: center;
 }
-.hero .info h1 {
-  font-size: 60px;
+.hero .info .info-title {
+  color: #333;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.hero .info .info-subtitle {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+.hero .info button {
+  border: none;
+  border-radius: 20px;
+  color: #333;
+  background-color: #fb8c00;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
 }
 .hero .hero-img {
   /* width: 100%; */
   height: 100%;
-  /* object-fit: contain; */
+  display: grid;
 }/*# sourceMappingURL=styles.css.map */
